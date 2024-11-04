@@ -1,27 +1,37 @@
 {
-  "expo": {
-    "name": "AdiBau-Birthday",
-    "slug": "AdiBau-Birthday",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
-  }
+	"expo": {
+		"name": "AdiBau-Birthday",
+		"slug": "adibau-birthday",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/1024.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/newLogo.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#00aaff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/1024.png"
+			},
+			"package": "com.adiBauBirthday.myapp"
+		},
+		"web": {
+			"favicon": "./assets/1024.png"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "e76b8d50-2be9-4742-a224-902a92330804"
+			}
+		}
+	}
 }
+
